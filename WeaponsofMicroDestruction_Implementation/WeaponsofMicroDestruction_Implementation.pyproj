@@ -23,7 +23,11 @@
     <Compile Include="regression.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\WeaponsOfMicroDestructionRawData.csv" />
     <Content Include="environment.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
